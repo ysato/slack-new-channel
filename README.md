@@ -14,16 +14,17 @@ responding to events and interactive buttons.
 # Replace with your signing secret and token
 export SLACK_BOT_TOKEN=<your-bot-token>
 export SLACK_SIGNING_SECRET=<your-signing-secret>
+export CHANNEL_TO_NOTIFY=<your-channel-to-notify>
 ```
 
 ### 2. Setup your local project
 
 ```zsh
 # Clone this project onto your machine
-git clone https://github.com/ysato/bolt-js-getting-started-app.git
+git clone https://github.com/ysato/slack-new-channel.git
 
 # Change into the project
-cd bolt-js-getting-started-app/
+cd slack-new-channel/
 
 # Install the dependencies
 npm install
